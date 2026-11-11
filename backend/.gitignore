@@ -1,0 +1,13 @@
+@"
+.env
+.env.*
+!.env.example
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+backend/payslips/
+"@ | Set-Content .gitignore
+payslips/
